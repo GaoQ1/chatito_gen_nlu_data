@@ -1,0 +1,137 @@
+%[request_search]('training': '400')
+    ~[greet?] ~[please?] ~[find?] @[time?] @[item] ~[how_much?]
+    ~[greet?] ~[please?] ~[find?] @[time?] @[phone_number] ~[how_much?]
+
+%[request_management]('training': '200')
+    ~[greet?] ~[please?] ~[manage] @[price?] @[data_plan?] ~[manage_content] 
+
+%[inform_time]('training': '100')
+    ~[是?] @[time] ~[的?] ~[mood?]]
+
+%[inform_item]('training': '30')
+    ~[是?] @[time] ~[mood?]
+
+%[inform_package]('training': '30')
+    @[package] ~[mood?]
+
+@[item]
+    ~[流量]
+    ~[余额]
+    ~[消费]
+    ~[月租]
+    ~[话费]
+    ~[钱]
+
+@[time]
+    ~[上个月]
+    ~[这个月]
+    ~[本月]
+    ~[当前月]
+    ~[上上个月]
+    ~[一月]
+    ~[二月]
+    ~[三月]
+    ~[四月]
+    ~[五月]
+    ~[六月]
+    ~[七月]
+    ~[八月]
+    ~[九月]
+    ~[十月]
+    ~[十一月]
+    ~[十二月]
+
+@[phone_number]
+    ~[18006208658]
+    ~[18810397783]
+    ~[18912936976]
+    ~[18045905302]
+    ~[17501667971]
+    ~[18506107025]
+
+@[data_plan]
+    ~[流量]
+
+@[package]
+    ~[套餐一]
+    ~[套餐二]
+    ~[套餐三]
+    ~[套餐四]
+    ~[套餐五]
+
+@[price]
+    ~[便宜]
+    ~[合适]
+    ~[昂贵]
+    ~[适中]
+    ~[超贵]
+    ~[二十八]
+    ~[三十]
+    ~[六十]
+
+~[greet]
+    你好
+    您好
+    嗨
+    喂
+    在吗
+    hi
+    hello
+    hey
+
+~[please]
+    请帮我
+    请
+    请你
+    请您
+    你能不能
+    能不能
+    能否
+    给我
+    我想
+    帮我
+    你能给我
+    你给我
+
+~[find]
+    看看
+    查查
+    查一查
+    看一看
+    查下
+    看一下
+    问一下
+    知道
+    看下
+    查一下
+    问
+
+~[how_much]
+    有多少
+    剩下多少
+    多少流量
+    多少话费
+    多少
+    多少钱 
+
+~[manage]
+    办理
+    办一下
+    办个
+    开下
+    开一个
+    办
+    开
+
+~[manage_content]
+    套餐
+    新套餐
+    新业务
+    业务
+
+~[mood]
+    就行
+    可以
+    吧
+    就好
+    就可以

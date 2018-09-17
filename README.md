@@ -15,3 +15,6 @@ npx chatito <pathToFileOrDirectory> --format=<format> --formatOptions=<formatOpt
  - <format> Optional. default, rasa or snips
  - <formatOptions> Optional. Path to a .json file that each adapter optionally can use
  - <outputPath> Optional. The directory where to save the generated dataset. Uses the current directory as default.
+
+ 4. document
+https://rodrigopivi.github.io/Chatito/

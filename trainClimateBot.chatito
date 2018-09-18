@@ -14,6 +14,16 @@
 %[inform_package]('training': '30')
     @[package] ~[mood?]
 
+%[greet]('training': '30')
+    ~[greet] ~[greet?]
+
+%[goodbye]('training': '10')
+    ~[goodbye]
+
+%[confirm]('training': '14')
+    ~[confirm]
+
+
 @[item]
     ~[流量]
     ~[余额]
@@ -78,6 +88,14 @@
     hi
     hello
     hey
+    你好吗
+    您好吗
+    你是谁
+    你是
+    您是
+    你是哪个
+    您是哪个
+    哪个    
 
 ~[please]
     请帮我
@@ -135,3 +153,31 @@
     吧
     就好
     就可以
+
+~[goodbye]
+    再见
+    拜拜
+    很高兴和你说话
+    拜
+    bye
+    byebye
+    see you
+    回见
+    下次见
+    走你
+
+~[confirm]
+    嗯
+    好的
+    行
+    可以的
+    恩
+    中
+    中中
+    办
+    办吧
+    办理
+    办理吧
+    行的
+    没问题
+    你看着办

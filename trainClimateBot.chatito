@@ -1,9 +1,10 @@
-%[request_search]('training': '400')
+%[request_search]('training': '420')
     ~[greet?] ~[please?] ~[find?] @[time?] @[item] ~[how_much?]
     ~[greet?] ~[please?] ~[find?] @[time?] @[phone_number] ~[how_much?]
+    @[phone_number]
 
 %[request_management]('training': '200')
-    ~[greet?] ~[please?] ~[manage] @[price?] @[data_plan?] ~[manage_content] 
+    ~[greet?] ~[please?] ~[manage] @[price?] @[data_plan?] @[package] 
 
 %[inform_time]('training': '100')
     ~[是?] @[time] ~[的?] ~[mood?]]
@@ -12,7 +13,7 @@
     ~[是?] @[time] ~[mood?]
 
 %[inform_package]('training': '30')
-    @[package] ~[mood?]
+    @[package] ~[number] ~[mood?]
 
 %[greet]('training': '30')
     ~[greet] ~[greet?]
@@ -28,7 +29,6 @@
     ~[流量]
     ~[余额]
     ~[消费]
-    ~[月租]
     ~[话费]
     ~[钱]
 
@@ -63,11 +63,8 @@
     ~[流量]
 
 @[package]
-    ~[套餐一]
-    ~[套餐二]
-    ~[套餐三]
-    ~[套餐四]
-    ~[套餐五]
+    ~[套餐]
+    ~[业务]
 
 @[price]
     ~[便宜]
@@ -141,11 +138,11 @@
     办
     开
 
-~[manage_content]
-    套餐
-    新套餐
-    新业务
-    业务
+~[number]
+    一
+    二
+    三
+    四
 
 ~[mood]
     就行

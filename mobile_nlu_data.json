@@ -1853,6 +1853,46 @@
         "text": "吃饭",
         "intent": "unknown_intent",
         "entities": []
+      },
+      {
+        "text": "哪里有吃饭的地方？",
+        "intent": "unknown_intent",
+        "entities": []
+      },
+      {
+        "text": "我想吃好吃的",
+        "intent": "unknown_intent",
+        "entities": []
+      },
+      {
+        "text": "今晚吃什么",
+        "intent": "unknown_intent",
+        "entities": []
+      },
+      {
+        "text": "你吃了吗？",
+        "intent": "unknown_intent",
+        "entities": []
+      },
+      {
+        "text": "附近哪里有餐厅？",
+        "intent": "unknown_intent",
+        "entities": []
+      },
+      {
+        "text": "附近有吃饭的地方吗？",
+        "intent": "unknown_intent",
+        "entities": []
+      },
+      {
+        "text": "我饿了",
+        "intent": "unknown_intent",
+        "entities": []
+      },
+      {
+        "text": "我要吃饭",
+        "intent": "unknown_intent",
+        "entities": []
       }
     ],
     "regex_features": [],

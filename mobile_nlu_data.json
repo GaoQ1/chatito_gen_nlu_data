@@ -1710,6 +1710,41 @@
         "entities": []
       },
       {
+        "text": "确定",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "肯定",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "一定",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "就这样",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "就这么办",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "就这么着",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "就这么着吧",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
         "text": "没问题",
         "intent": "confirm",
         "entities": []
